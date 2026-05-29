@@ -201,7 +201,7 @@ def login_page():
                 users_df = read_sheet("users")
                 if users_df.empty:
                     # Fallback hardcoded admin if sheet not connected
-                    if username == "admin" and password == "admin123":
+                    if username == "NC25796" and password == "Ninj@2026":
                         st.session_state.update({
                             "logged_in": True, "username": "admin",
                             "role": "admin", "full_name": "Administrator"
@@ -229,7 +229,7 @@ def login_page():
 
         st.markdown("""
         <p style='text-align:center; font-size:0.8rem; color:#ADB5BD; margin-top:1rem'>
-        Default admin: <code>admin</code> / <code>admin123</code>
+        Default admin: 
         </p>
         """, unsafe_allow_html=True)
 
