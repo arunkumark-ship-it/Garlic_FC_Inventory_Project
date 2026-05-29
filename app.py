@@ -203,7 +203,7 @@ def login_page():
                     # Fallback hardcoded admin if sheet not connected
                     if username == "NC25796" and password == "Ninj@2026":
                         st.session_state.update({
-                            "logged_in": True, "username": "admin",
+                            "logged_in": True, "username": "NC25796",
                             "role": "admin", "full_name": "Administrator"
                         })
                         st.rerun()
