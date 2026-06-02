@@ -352,11 +352,11 @@ def dashboard_page():
 # ─── INVENTORY ─────────────────────────────────────────────────────────────────
 MATERIAL_TYPES = [
     "Raw Material", "Semi-Finished", "Finished Goods",
-    "Spare Parts", "Packaging", "Consumables", "Electronics", "Hardware", "Other"
+    "Spare Parts", "Packaging", "Consumables", "Electronics", "Hardware","Machine","Assets", "Other"
 ]
 STORAGE_LOCATIONS = [
     "Rack A", "Rack B", "Rack C", "Cold Storage", "Bonded Warehouse",
-    "Shelf 1", "Shelf 2", "Floor Storage", "Loading Bay","Office Room", "Other"
+    "Shelf 1", "Shelf 2", "Floor Storage", "Loading Bay","Office Room","Floor","Machine", "Other"
 ]
 
 def inventory_page():
