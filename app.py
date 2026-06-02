@@ -356,7 +356,7 @@ MATERIAL_TYPES = [
 ]
 STORAGE_LOCATIONS = [
     "Rack A", "Rack B", "Rack C", "Cold Storage", "Bonded Warehouse",
-    "Shelf 1", "Shelf 2", "Floor Storage", "Loading Bay","Office Room","Floor","Machine", "Other"
+    "Shelf 1", "Shelf 2", "Floor Storage", "Loading Bay","Office Room","Floor","Machine","Storage Unit", "Other"
 ]
 
 def inventory_page():
